@@ -1,9 +1,12 @@
 import './App.css';
+import TopBar from './component/TopBar/TopBar';
+
 function App() {
   return (
-    <div >
-      <h1>my-blog-23</h1>
-    </div>
+    <>
+<TopBar></TopBar>
+
+    </>
   );
 }
 export default App;
